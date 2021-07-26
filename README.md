@@ -41,6 +41,8 @@ npm install phaser-raycaster
 ```
 ### 2. Enable plugin in your Game config:
 ```javascript
+import PhaserRaycaster from 'phaser-raycaster'
+
 let config = {
     type: Phaser.Auto,
     parent: 'game',
